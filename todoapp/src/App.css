@@ -1,0 +1,131 @@
+.tong{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(247, 245, 245);
+}
+.phone{
+  background-color: rgb(229, 229, 229);
+  border-radius: 15px;
+  border: 1px solid black;
+  width: 30%;
+  height: 70vh;
+}
+header{
+  border-radius: 15px;
+  display: flex;
+  background-color: rgb(197, 197, 197);
+  height: 60px;
+  
+}
+header > div{
+  margin: 0 30px;
+  margin-top: 4px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 50px;
+}
+.one{
+  border-radius: 100%;
+  font-size: 15px;
+  background-color: wheat;
+}
+.two{
+  font-size: 20px;
+  width: 100px;
+}
+.modal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: #eae6e6;
+  padding: 20px;
+  width: 250px; 
+  height: 250px; 
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+.top{
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+.li{
+  margin: 100px;
+}
+li:hover{
+  background-color: gray;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 20px;
+  border: 1px solid black;
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+.wt{
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  align-items: center;
+  font-size: 30px;
+}
+.sidebar {
+  border: 1px solid black;
+  border-radius: 15px;
+  background-color: rgb(176, 176, 176);
+  position: fixed;
+  right: 34%;
+  top: 13.9%;
+  width: 17%;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  margin-right: 8px;
+}
+.completed {
+  opacity: 0.5;
+}
+.ekerl{
+  margin-top: 10px;
+  position: fixed;
+  right: 36%;
+  border:1px solid orange;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: orange;
+}
+.mode{
+  cursor: pointer;
+}
+.warning{
+  display: flex;
+  justify-content: center;
+}
